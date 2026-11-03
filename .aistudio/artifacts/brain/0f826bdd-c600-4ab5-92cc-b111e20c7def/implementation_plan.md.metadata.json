@@ -1,0 +1,6 @@
+{
+  "summary":  "Comprehensive implementation plan for the standalone, secure TypeScript Agentic LLM Platform Workbench UI. \n\nThis plan details the specialized translation of the Perchance chat layout into an enterprise-grade agentic workbench:\n- Decouples the frontend as a self-contained, isolated TypeScript module (modules/ui-agentic-workbench) with zero compile-time dependencies on the backend or Java core.\n- Re-architects the default 'Chloe' entity as the built-in Gemini Architectural & Diagnostic Helper, and transforms additional 'characters' into specialized AgentForge subagents governed by TaskContracts and Rule DAGs.\n- Replaces image generation with Workspace Folder & File Linking.\n- Maps the interactive UI components: thread/session management, inline turn editing/deletion/regeneration, stream perspective selector (Agent, Operator, System Kernel, Workspace Link), and local-first JSON backup export/import.\n- Outlines the clean API/SSE bridge connecting to the LeanJavallm core (zero-dep RFC 8259 JSON engine, SecureSecret, ProcessTreeTerminator) and AgentForge multi-agent runtime.",
+  "updatedAt":  "2026-10-27T21:34:34.583385131Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
